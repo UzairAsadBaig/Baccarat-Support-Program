@@ -1,0 +1,287 @@
+.header_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 60px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+
+}
+
+.header_main_text {
+  font-size: 17px;
+  color: #000;
+  margin-left: 50px;
+  text-decoration: none;
+
+}
+
+.header_secondary_text {
+  font-size: 17px;
+  font-weight: 700;
+  color: #000;
+}
+
+.header_main_text.program_btn {
+  color: red;
+
+}
+
+.logout_btn {}
+
+
+.main_box {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 80px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 86vh;
+  padding: 25px;
+}
+
+.amount_box {
+  box-shadow: #e4b303a8 0px 0px 0px 3px;
+  width: 70%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px 30px;
+  border-radius: 60px;
+
+  position: relative;
+}
+
+.course_no {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  background-color: rgb(235, 235, 235);
+  color: grey;
+  text-align: center;
+  align-items: center;
+  font-size: 40px;
+  border: 3px solid grey;
+  left: -2rem;
+  top: 0.3rem;
+  padding: 8px;
+
+
+
+}
+
+.amount {
+  font-size: 25px;
+  font-weight: 700;
+
+}
+
+.courses {
+  width: 80px;
+  height: 80px;
+  border-radius: 65px;
+  background-color: rgb(235, 235, 235);
+  color: grey;
+  border: 5px solid grey;
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+  padding: 8px;
+  margin: auto;
+
+}
+
+.course_red {
+  background-color: red;
+  color: white;
+  border: 5px solid red;
+}
+
+.course_blue {
+  background-color: blue;
+  color: white;
+  border: 5px solid blue;
+}
+
+.bet_amount {
+  font-size: 20px;
+  font-weight: 700;
+  color: grey;
+  margin-top: 5px;
+}
+
+.bet_amount.bet_amount_blue , .amount.bet_amount_blue{
+  color: blue;
+
+}
+
+.bet_amount.bet_amount_red , .amount.bet_amount_red {
+  color: red;
+
+}
+.box_btn {
+  width: 110px !important;
+  height: 50px !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  padding: 3px 10px 10px 10px !important;
+  border-radius: 10px !important;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
+}
+
+.box_btn2 {
+  width: 100px !important;
+  height: 45px !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  padding:5px 2px 5px 2px !important;
+  border-radius: 10px !important;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
+  background-color: none !important;
+  border: 1px solid rgba(0, 0, 0, 0.877) !important;
+}
+.box_btn2.setting_btn{
+  width: 100px !important;
+  height: 45px !important;
+}
+
+.box_btn2:hover {
+  color: white !important;
+  background-color: rgba(0, 0, 0, 0.877) !important;
+}
+
+
+.loose_btn {
+  background-color: black !important;
+  border: none !important;
+  outline: none;
+}
+
+.loose_btn:hover {
+  background-color: rgb(45,45,45) !important;
+}
+
+.win_btn {
+  background-color: black !important;
+  border: none !important;
+  outline: none;
+}
+
+.win_btn:hover {
+  background-color:rgb(45, 45, 45) !important;
+}
+
+.box_btn.tie_btn {
+  background-color: green !important;
+  border: none !important;
+  width: 100px !important;
+  height: 45px !important;
+  outline: none;
+}
+
+.tie_btn:hover {
+  background-color: rgb(0, 174, 0) !important;
+}
+
+.arrow_box {
+  /* border: 1px solid black; */
+  /* padding: 10px; */
+}
+
+.arrows {
+  border: 1px solid black;
+  width: 60px;
+  font-size: 11px !important;
+  transition: all 1s;
+ 
+}
+
+.arrows:hover {
+  outline: none;
+  color: black;
+  border: 1px solid black;
+}
+
+
+
+.course_inputBox {
+  border: 1px solid rgb(49, 49, 49);
+  font-size: 25px;
+  text-align: center;
+}
+
+.setting_modal .ant-modal-footer{
+  text-align: center !important;
+}
+
+.setting_modal .ant-modal-footer .ant-btn-default{
+  border:1px solid red !important;
+  color: red !important;
+}
+.setting_modal .ant-modal-footer .ant-btn-primary{
+  border:1px solid blue !important;
+  background: none !important;
+  color: blue !important;
+}
+
+.setting_modal .ant-modal-footer .ant-btn-default:hover {
+  color: white !important;
+  background:red !important;
+}
+.setting_modal .ant-modal-footer .ant-btn-primary:hover{
+  color: white !important;
+  background:blue !important;
+}
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"MEDIA QUERIES"<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>>>>>>>>Small Devices */
+@media(min-width:768px) and (max-width:991px) {
+
+  .header_main,.header_main_text,.header_secondary_text{
+    font-size: 13px;
+  }
+  
+  .main_box {
+    width: 65%;
+  }
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>Extra Small Devices */
+@media(min-width:576px) and (max-width:767px){
+  .header_main,.header_main_text{
+    font-size: 9px;
+  }
+  .header_secondary_text{
+    font-size: 13px;
+  }
+
+  .main_box {
+    width: 90%;
+  }
+  
+
+}
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>Extra-Extra Small Devices */
+@media(max-width:575px) {
+  .header_main,.header_main_text{
+    font-size: 8px;
+  }
+ 
+  .header_secondary_text{
+    font-size: 13px;
+  }
+  .main_box {
+    width: 98%;
+  }
+}

@@ -1,0 +1,21 @@
+
+.signup_img{
+    width: 110%;
+    padding: 8rem;
+    padding-top: 10rem;
+}
+
+.main{
+    overflow-y: hidden;
+}
+.signup_form{
+    padding: 6rem;
+}
+
+.login_link{
+    color: black;
+    margin-bottom: 0;
+}
+.login_link:hover{
+    color: rgb(228 179 3);
+}

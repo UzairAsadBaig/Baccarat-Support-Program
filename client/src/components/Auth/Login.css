@@ -1,0 +1,18 @@
+/* #e4b303 */
+
+
+.login_img{
+    width: 110%;
+    padding: 8rem;
+    padding-top: 10rem;
+}
+.login_form{
+    padding: 6rem;
+}
+.signup_link{
+    color: black;
+    margin-bottom: 0;
+}
+.signup_link:hover{
+    color: rgb(228 179 3);
+}
